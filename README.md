@@ -2,7 +2,7 @@
 
 Removes the disabling of creative flight when touching the ground
 
-## What his mod does
+## What this mod does
 
 It avoids the unnecessary auto-switch to walking when flying near ground. This omits annoying moments.
 
