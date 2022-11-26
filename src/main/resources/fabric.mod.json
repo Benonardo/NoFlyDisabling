@@ -1,38 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "noflydisabling",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "NoFlyDisabling",
+  "description": "Removes the disabling of creative flight when touching the ground",
   "authors": [
-    "Me!"
+    "Benonardo"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Benonardo/NoFlyDisabling"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/noflydisabling/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "environment": "client",
+  "entrypoints": {},
   "mixins": [
-    "modid.mixins.json"
+    "noflydisabling.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.10",
-    "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

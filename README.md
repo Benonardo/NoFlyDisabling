@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# NoFlyDisabling
 
-## Setup
+Removes the disabling of creative flight when touching the ground
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## What his mod does
 
-## License
+It avoids the unnecessary auto-switch to walking when flying near ground. This omits annoying moments.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Dependencies
+
+None! Like most of my mods, it works out of the box.
